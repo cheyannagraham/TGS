@@ -1,0 +1,289 @@
+:root {
+    --accent-light: rgb(64, 137, 96);
+    --accent-dark: rgb(13, 101, 76);
+    --shadow:0.8px 0.8px 1px 0.8px black;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background: rgba(15, 64, 36, 0.158);
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color:rgb(240, 239, 233);
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 25px;
+}
+a {
+    text-decoration: none;
+    color: inherit;   
+}
+
+button, nav li, li a, a {
+    cursor: pointer;
+}
+button:hover:hover, nav li:hover, a:hover {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    color:var(--accent-dark)
+}
+ul {
+    list-style-type: none;
+}
+hr {
+    margin: 15px;
+    border: 2px solid var(--accent-light);
+    border-radius: 5px;
+}
+header {
+    text-align: center;
+}
+header img {
+    width: 50vw;
+    max-width: 175px;
+    margin: 10px;
+    padding: 10px;
+}
+#ham-menu-btn {
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+#ham-menu-btn svg{
+    width: 8.6vw;
+    max-width: 75px;
+    color: var(--accent-dark)
+}
+h1 {
+    font-size: 2rem;
+    margin: 15px 10px;
+    padding: 15px 10px;
+    font-style: italic;
+
+}
+nav ul{
+    padding: 10px 0;
+    margin: 10px 0;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+nav li {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+}
+.selected-site {
+    text-decoration: underline;
+    color: var(--accent-dark);
+    font-weight:bold;
+}
+.show-nav {
+    display: flex;
+}
+.show-contact-form{
+    display:block;
+}
+.hide{
+    display:none;
+}
+.capital-star {
+    font-size: 1.1rem;
+    padding: 1px;
+    margin: 1px;
+    color: red;
+}
+main {
+    text-align: center;
+}
+h2 {
+    padding: 25px 10px 10px;
+    margin: 10px;
+}
+figure {
+    padding:10px;
+    margin:10px;
+}
+.golden-state-img {
+    width: 45%;
+    max-width: 250px;
+    margin: 10px;
+}
+.golden-state-caption {
+    font-size: .56rem;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+#things-to-do {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;    
+}
+.icon-link, .icon-link span {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 1.2rem;
+}
+.icon-link svg {
+    width: 15vw;
+    max-width: 100px;
+    color: var(--accent-dark);
+}
+#quick-stats div {
+    overflow: auto;
+}
+#quick-stats-table {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+table, tr, th, td, thead {
+    margin:10px;
+    padding: 10px;
+}
+#contact {
+    text-align: center;
+    color: white;
+    background: var(--accent-dark);
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius:5px;
+}
+#contact-form {
+    text-align: center;
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+}
+input, textarea, label {
+    margin: 10px;
+    padding: 10px;
+}
+#submit-btn {
+    background: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+label input:invalid {
+    color:red;
+}
+
+/* Cities */
+blockquote {
+    margin: auto;
+    width: 90%;
+    line-height: 30px;
+}
+blockquote p, cite{
+    margin:10px 15px;
+    padding: 5px 10px;
+    text-indent: 20px;
+    font-style:italic;
+}
+#city-info-outer{
+    display: grid;
+    align-items: center;
+}
+#city-info{
+    margin: 10px;
+    padding: 10px;
+}
+#city-info li{
+    padding: 10px;
+    margin:10px;
+}
+.city-info-title {
+    font-weight:bold;
+    padding: 0 5px;
+}
+#region-div img {
+    width: 100%;
+    max-width: 250px;
+}
+#region-div figcaption {
+    padding: 10px;
+    margin: 10px;
+    font-size: 0.8rem;
+}
+#city-things-to-do {
+    background: var(--accent-dark);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#city-things-to-do ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+#city-things-to-do img {
+    margin: 10px;
+    padding:10px;
+    width: 100%;
+    max-width: 250px;
+    background: white;
+
+}
+#city-things-to-do a:hover {
+    color:white;
+}
+
+#city-things-to-do figure {
+    position: relative;
+}
+.img-attribution {
+    position: absolute;
+    bottom: 45px;
+    left: 25px;
+    font-size: 0.7rem;
+    background: rgba(237, 242, 239, 0.634);
+    color:black;
+    max-width: 240px;
+}
+#city-things-to-do .img-attribution a:hover{
+    color:black;
+}
+.city-info-attribution {
+    font-size:0.7rem
+}
+/* Attribution Page */
+#body-attribution{
+    width: 100%;
+    min-height: 100vh;
+}
+#main-attribution {
+    text-align:left;
+}
+#attribution-list .title {
+    font-style:italic;
+}
+#attribution-list {
+    margin: 10px 25px;
+    padding: 10px;
+}
+#attribution-list li {
+    margin: 10px;
+    padding: 10px;
+    word-wrap: break-word;
+}

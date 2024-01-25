@@ -1,0 +1,47 @@
+@media screen and (max-width:599px) {
+    nav {
+        display:none;
+    }
+    nav ul {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    #nav {
+        display: block;
+    }
+    #nav ul{
+        display: flex;
+    }
+    #ham-menu-btn {
+        display: none;
+    }
+    header img {
+        float: left;
+        width: 20vw;
+    }
+    #contact-form {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* cities */
+    blockquote {
+        width: 85%;
+        line-height: 50px;
+    }
+    #city-info-outer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 900px) {
+
+    header div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header img {
+        float:none;
+    }
+}

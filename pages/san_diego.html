@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Diego, California!</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../breakpoints.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;1,200;1,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <img src="../images/256px-Seal_of_San_Diego,_California.svg.png" alt="seal of sacramento, California">
+            <h1 id="h1">The City of San Diego</h1>
+        </div>
+        <button id="ham-menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                <path fill="currentColor" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </button>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><span class="capital-star">&#9733;</span><a href="./sacramento.html">Sacramento</a></li>
+            <li><a href="./los_angeles.html">Los Angeles</a></li>
+            <li><a href="./san_francisco.html">San Francisco</a></li>
+            <li class="selected-site"><a href="#header">San Diego</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main id="main">
+        <section id="about-section">
+            <h2>About</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/San_Diego">
+                <p>
+                    "San Diego is a city in the U.S. state of California located alongside the Pacific Ocean in Southern
+                    California. With a population of over 1.3 million residents, the city is the eighth-most populous in
+                    the United States and the second-most populous in California after Los Angeles. The city is located
+                    immediately adjacent to the Mexico–United States border and is the seat of San Diego County, which
+                    has a population of nearly 3.3 million people as of 2021.[14] San Diego is known for its mild
+                    year-round Mediterranean climate, extensive beaches and parks, its long association with the United
+                    States Navy, and its recent emergence as a healthcare and biotechnology development center."
+                    <a href="./attribution.html"> (Wikipedia, 2024b, para 1)</a>
+                </p>
+            </blockquote>
+        </section>
+
+        <section id="city-info-section">
+            <h2>Info</h2>
+            <div id="city-info-outer">
+                <div id="city-info">
+                    <ul>
+                        <li><span class="city-info-title">Population:</span> 1.39M</li>
+                        <li><span class="city-info-title">Average Income:</span>$89,457</li>
+                        <li><span class="city-info-title">Average Property Value:</span> $664,000</li>
+                    </ul>
+                    <p class="city-info-attribution"><a href="./attribution.html">(DataUSA n.d.b)</a></p>
+                </div>
+                <div id="region-div">
+                    <figure>
+                        <img src="../images/sd_region.png" alt="google maps image of the city of san diego">
+                        <figcaption>San Diego is located on the western coast of Southern California</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <aside id="city-things-to-do">
+        <div>
+            <h2>Things To Do</h2>
+            <ol>
+                <li>
+                    <figure>
+                        <span class="img-attribution">
+                            <a
+                                href="https://commons.wikimedia.org/wiki/File:Hippopotamus_in_San_Diego_Zoo.jpg">cloudzilla</a>,
+                            <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
+                        </span>
+                        <a href="https://sandiegozoowildlifealliance.org/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Hippopotamus_in_San_Diego_Zoo.jpg/256px-Hippopotamus_in_San_Diego_Zoo.jpg"
+                                alt="San Diego zoo">
+                            <figcaption>San Diego Zoo</figcaption>
+                        </a>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <span class="img-attribution">
+                            <a <a
+                                href="https://commons.wikimedia.org/wiki/File:Balboa_Park_San_Diego_August_17_2019.jpg">Mesutcaninla</a>,
+                            <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia
+                            Commons
+                        </span>
+                        <a href="https://balboapark.org/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Balboa_Park_San_Diego_August_17_2019.jpg/256px-Balboa_Park_San_Diego_August_17_2019.jpg"
+                                alt="Balboa Park">
+                            <figcaption> Balboa Park</figcaption>
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <span class="img-attribution">
+                            <a href="https://commons.wikimedia.org/wiki/File:E-2_Hawkeye_USS_Midway_Museum-1.jpg">Balon
+                                Greyjoy</a>, CC0, via Wikimedia Commons
+                        </span>
+                        <a href="https://www.midway.org/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/E-2_Hawkeye_USS_Midway_Museum-1.jpg/256px-E-2_Hawkeye_USS_Midway_Museum-1.jpg"
+                                alt="USS Midway Museum">
+                            <figcaption>USS Midway Museum</figcaption>
+                        </a>
+                    </figure>
+
+                </li>
+            </ol>
+        </div>
+    </aside>
+    <script src="../main.js"></script>
+</body>
+
+</html>
