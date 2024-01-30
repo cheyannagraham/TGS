@@ -44,4 +44,8 @@
     header img {
         float:none;
     }
+    footer {
+        max-width: 60%;
+    }
+    
 }

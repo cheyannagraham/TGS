@@ -254,7 +254,6 @@ blockquote p, cite{
     width: 100%;
     max-width: 250px;
     background: white;
-
 }
 #city-things-to-do a:hover {
     color:white;
@@ -278,13 +277,15 @@ blockquote p, cite{
 .city-info-attribution {
     font-size:0.7rem
 }
-/* footer */
-/* #body-attribution{
-    width: 100%;
-    min-height: 100vh;
-} */
-#attribution {
-    text-align:left;
+footer {
+    padding: 75px 0 40px;
+    max-width: 90%;
+    margin: auto;
+    font-size: 0.7rem;
+}
+
+#attribution h2 {
+    text-align:center;
 }
 #attribution-list .title {
     font-style:italic;
@@ -294,7 +295,7 @@ blockquote p, cite{
     padding: 10px;
 }
 #attribution-list li {
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     word-wrap: break-word;
 }
