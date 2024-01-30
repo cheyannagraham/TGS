@@ -129,6 +129,17 @@ figure {
     margin: 10px 0;
     padding: 10px 0;    
 }
+#things-to-do ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    padding: 20px 10px;
+}
+
+.ttd-item {
+    min-width: 300px;
+}
 .icon-link, .icon-link span {
     display: block;
     margin: 5px 0;
