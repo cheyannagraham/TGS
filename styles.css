@@ -278,12 +278,12 @@ blockquote p, cite{
 .city-info-attribution {
     font-size:0.7rem
 }
-/* Attribution Page */
-#body-attribution{
+/* footer */
+/* #body-attribution{
     width: 100%;
     min-height: 100vh;
-}
-#main-attribution {
+} */
+#attribution {
     text-align:left;
 }
 #attribution-list .title {
